@@ -5,12 +5,13 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 1.3rem;
-  color: #090b55;
+  
   line-height: 1.6;
 }
 #showcase {
-  background-image: url(https://images.unsplash.com/photo-1552452380-4137214f33b6?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDUxfDZzTVZqVExTa2VRfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   height: 100vh;
+  color: #e2ebd3;
   background-size: cover;
   background-position: center;
   display: flex;
@@ -31,11 +32,11 @@ body {
 #showcase .button {
   font-size: 20px;
   text-decoration: none;
-  color: #04021d;
-  border: 1px solid #7e532e;
+  color: #dbd94e;
+  border: 1px solid #4656e6;
   padding: 10px 20px;
   border-radius: 10px;
-  margin-top:110px;
+  margin-top:10px;
   box-shadow: 3px 3px 6px #d39c6c;
 }
 #showcase .button:hover {
@@ -74,4 +75,13 @@ body {
   color: white;
   padding: 10px;
   
+}
+@media (max-width :500px  ) {
+    #section-c {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        row-gap: 5px;
+        padding: 5px;
+      }
 }
